@@ -1,7 +1,8 @@
 def main():
-    print ('HELLO WORLD')
-    print ('{0} {1} {2}'.format('a', 'b', 'c'))
-
+    weight = int(input("How much is the weight? "))
+    density = int(input("How much is the density? "))
+    volume = weight / density
+    print("The Volume is: ", volume, "L^3")
 
 if __name__ == '__main__':
     main()
